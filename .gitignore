@@ -16,3 +16,6 @@ directory-backup.txt
 # OS files
 .DS_Store
 Thumbs.db
+
+# IDE/History
+.history/

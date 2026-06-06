@@ -37,4 +37,6 @@ This macropad can be used with various firmware options:
 *Typical PCB or 3D view of the project.*
 
 ---
-Designed with ❤️ by [Your Name/GitHub Handle]
+Designed with ❤️ by [Elnur](https://github.com/ElnurMavlonov)
+
+*Note: This README was generated with the assistance of AI.*

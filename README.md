@@ -34,7 +34,8 @@ This macropad can be used with various firmware options:
 
 ## Media
 ![PCB Layout](SCR-20260606-octj.png)
-*Typical PCB or 3D view of the project.*
+![Fusion 360 Design](SCR-20260606-oeem.png)
+*Typical PCB and 3D design views of the project.*
 
 ---
 Designed with ❤️ by [Elnur](https://github.com/ElnurMavlonov)

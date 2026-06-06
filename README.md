@@ -18,15 +18,20 @@ This repository contains the design files and documentation for my 3-key program
 
 ## Bill of Materials (BOM)
 
-| Component | Description | Quantity |
-|-----------|-------------|----------|
-| Seeed Studio XIAO RP2040 | Dual-core ARM Cortex M0+ Microcontroller | 1 |
-| Cherry MX Blue Switches | Mechanical switches (or compatible) | 3 |
-| Custom PCB | 2-layer PCB designed in KiCad | 1 |
-| 3D Printed Case (Top) | PLA/PETG Enclosure | 1 |
-| 3D Printed Case (Bottom) | PLA/PETG Base | 1 |
-| M3 Heatset Inserts | 4.7mm diameter holes | 4 |
-| M3 Screws | 6mm length | 4 |
+| Component | Description | Quantity | Estimated Price |
+|-----------|-------------|----------|-----------------|
+| Seeed Studio XIAO RP2040 | Dual-core ARM Cortex M0+ Microcontroller | 1 | - |
+| Cherry MX Blue Switches | Mechanical switches (or compatible) | 3 | - |
+| Custom PCB | 2-layer PCB designed in KiCad | 1 | $2.10 |
+| 3D Printed Case (Top) | PLA/PETG Enclosure | 1 | - |
+| 3D Printed Case (Bottom) | PLA/PETG Base | 1 | - |
+| M3 Heatset Inserts | 4.7mm diameter holes | 4 | - |
+| M3 Screws | 6mm length | 4 | - |
+
+### PCB Manufacturing Details
+- **Base Price (Special Offer):** $2.00
+- **Deburring/Edge rounding:** $0.10
+- **Total PCB Cost:** $2.10
 
 ## Project Structure
 

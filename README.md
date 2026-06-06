@@ -1,41 +1,39 @@
-# 3-Key Macropad
+# 3-Key Macropad Submission
 
-A compact, 3-key programmable macropad designed using the Seeed Studio XIAO RP2040 microcontroller and Cherry MX compatible switches.
+This repository contains the design files and documentation for my 3-key programmable macropad.
 
-## Features
-- **Microcontroller:** Seeed Studio XIAO RP2040 (dual-core ARM Cortex M0+).
-- **Keys:** 3 Cherry MX compatible mechanical switches.
-- **Design:** Custom PCB designed in KiCad and enclosure designed in Fusion 360.
+## Screenshots
+
+### Assembled Render
+![Assembled Render](Media/macropad_2026-Jun-06_11-53-31AM-000_CustomizedView3218133698_png.png)
+
+### Schematic
+![Schematic](Media/SCR-20260606-oxli.png)
+
+### PCB Layout
+![PCB Layout](Media/SCR-20260606-octj.png)
+
+### 3D Case Design
+![3D Case Design](Media/SCR-20260606-oeem.png)
+
+## Bill of Materials (BOM)
+
+| Component | Description | Quantity |
+|-----------|-------------|----------|
+| Seeed Studio XIAO RP2040 | Dual-core ARM Cortex M0+ Microcontroller | 1 |
+| Cherry MX Blue Switches | Mechanical switches (or compatible) | 3 |
+| Custom PCB | 2-layer PCB designed in KiCad | 1 |
+| 3D Printed Case (Top) | PLA/PETG Enclosure | 1 |
+| 3D Printed Case (Bottom) | PLA/PETG Base | 1 |
+| M3 Heatset Inserts | 4.7mm diameter holes | 4 |
+| M3 Screws | 6mm length | 4 |
 
 ## Project Structure
-- `macropad/`: Contains the KiCad project files (schematic and PCB layout).
-- `macropad.f3d`: Fusion 360 design file for the macropad case or plate.
-- `SCR-*.png`: Screenshots of the project (PCB layout and 3D design).
 
-## Hardware
-### Components
-- 1x Seeed Studio XIAO RP2040
-- 3x Cherry MX (or compatible) Mechanical Switches
-- Custom PCB
-
-### Schematic & PCB
-The hardware design is located in the `macropad/` directory. 
-- `macropad.kicad_sch`: Schematic design.
-- `macropad.kicad_pcb`: PCB layout design.
-
-## Case / Mechanicals
-The mechanical design was created in Fusion 360. The `macropad.f3d` file can be opened in Fusion 360 to modify the case or export STL files for 3D printing.
-
-## Firmware
-This macropad can be used with various firmware options:
-- [KMK Firmware](https://github.com/KMKfw/kmk_firmware) (CircuitPython)
-- [QMK Firmware](https://qmk.fm/)
-- Custom Arduino code using the RP2040 core.
-
-## Media
-![PCB Layout](SCR-20260606-octj.png)
-![Fusion 360 Design](SCR-20260606-oeem.png)
-*Typical PCB and 3D design views of the project.*
+- `CAD/`: STEP file of the assembled model.
+- `PCB/`: KiCad project files (schematic, PCB layout).
+- `Firmware/`: (Pending) Firmware source code.
+- `production/`: Exported Gerbers and STEP files for case parts.
 
 ---
 Designed with ❤️ by [Elnur](https://github.com/ElnurMavlonov)

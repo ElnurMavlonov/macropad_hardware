@@ -1,0 +1,18 @@
+# KiCad
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.lck
+fp-info-cache
+_autosave-*
+*.tmp
+*-save.kicad_pcb
+*-save.kicad_sch
+directory-backup.txt
+
+# Fusion 360 / CAD
+*.f3d.backup
+
+# OS files
+.DS_Store
+Thumbs.db

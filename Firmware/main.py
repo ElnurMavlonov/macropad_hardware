@@ -13,7 +13,7 @@ keyboard.keymap = [
     [
         KC.LCMD(KC.C),
         KC.LCMD(KC.V), 
-        KC.MUTE,
+        KC.MEDIA_NEXT_TRACK,
     ]
 ]
 
